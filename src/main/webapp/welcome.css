@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: white;
+}
+
+.welcome-container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.welcome-container h1 {
+    margin-bottom: 20px;
+}
+
+.action-buttons {
+    margin-top: 20px;
+}
+
+.action-buttons a {
+    text-decoration: none;
+    background: #6a11cb;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.action-buttons a:hover {
+    background: #2575fc;
+}

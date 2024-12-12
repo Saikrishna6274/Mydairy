@@ -1,0 +1,86 @@
+/* Resetting default styles */
+body, h2, p, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+/* Login Container */
+.login-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px 40px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 350px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+/* Header */
+.login-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Form Labels */
+form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+/* Input Fields */
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Button Styling */
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2575fc;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #6a11cb;
+}
+
+/* Sign Up Link */
+.signup-link {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.signup-link a {
+    color: #6a11cb;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
